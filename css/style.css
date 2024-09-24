@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    margin: 4vw 13vw 4vw 18vw;
+    /*13*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li p{
+    margin: 0 30vw 4vw 0;
+    color: #232323;
+}
+header nav ul li a{
+    color: #868686;
+    text-decoration: none;
+    padding: 0 50px 0 0;
+}
+header nav ul li a.menu{
+    color: #232323;
+    
+}
+
+main section.banner div h1{
+    font-size: 57px;
+    margin: 2vw 3vw 0 0;
+    font-family: Playfair Display;
+    font-weight: bolder;
+}
+main section.banner div h1 span{
+    color: #47C183;
+}
+main section.banner div p{
+    font-size: 20px;
+    margin: 2.8vw 8vw 4.1vw 0;
+}
+main section.banner div button{
+    padding: 1.3vw 2.5vw 1.3vw 2.5vw;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #232323;
+    font-size: 15px;
+    border: none;
+}
+main section.banner div a{
+    color: #000000;
+    margin: 0 0 0 2.2vw;
+}
+main section.banner{
+    display: flex;
+}
+main section.banner div img{
+    margin: 0 10vw 0 0;
+} 
+
+main section h2{
+    text-align: center;
+    font-size: 20px;
+    color: #232323;
+    font-weight: bolder;
+    margin: 2.5vw 10vw 2.5vw 0;
+}
+main section.point div{
+    display: flex;
+    margin: 1.5vw 0 1.5vw 2vw;
+}
+main section.point div p{
+    color: #232323;
+    margin: 3vw 18vw 5vw 4vw;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+main section.point div img{
+    max-width: 206px;
+    max-height: 206px;
+}
+main section.point div.img p{
+    margin: 2vw 2vw 0 3vw;
+}
+main section.point div.img2 img{
+    margin: 0 17vw 0 2vw;
+}
+
+main section.experiments h2{
+    text-align: center;
+    font-size: 20px;
+    color: #232323;
+    font-weight: bolder;
+    margin: 4.5vw 9vw 4vw 0;
+}
+main section.experiments div.divPrincipal div p{
+    line-height: 1.8;
+    margin: 1.5vw 3vw 0 4vw;
+    color: #232323;
+    font-size: 1.1rem;
+}
+main section.experiments div.divPrincipal div p.p2{
+    margin: 1.3vw 3vw 0 4vw;
+    font-size: 1.1rem;
+}
+main section.experiments div p span{
+    font-weight: bolder;
+}
+main section.experiments div.divPrincipal{
+    display: flex;
+}
+main section.experiments div.divPrincipal div img{
+    margin: 0 13vw 0 0;
+}
+
+footer nav ul li p.stories{
+    margin: 8vw 0 0 0vw;
+}
+footer nav ul li{
+    margin: 15px 0 0 0;
+    color: #232323;
+}
+footer{
+    display: flex;
+}
+footer nav.links ul{
+    display: flex;
+    margin: 7.15vw 0 0 19vw;
+}
+footer nav.links ul li a{
+    padding: 0 40px 0 0;
+    color: #868686;
+}
